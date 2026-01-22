@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aarush Gupta Portfolio",
-  description: "Portfolio of Aarush Gupta - Final-year CSE Student & Software Developer.",
+  title: "Nakul Kumar Singh",
+  description: "Portfolio of Nakul - Final-year B.tech Student. Software Developer & AI Engineer",
 };
 
 export default function RootLayout({

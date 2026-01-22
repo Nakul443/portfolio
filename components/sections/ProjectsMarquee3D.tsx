@@ -4,31 +4,31 @@ import { Marquee } from "../magicui/marquee";
 
 const projects = [
 	{
-		title: "Dadhichi - AI Fitness Coach",
-		tech: ["Python", "Streamlit", "OpenCV", "Fitbit API"],
+		title: "RAG pipeline for notes",
+		tech: ["Python", "Ollama", "MCP", "ChromaDB", "FAISS/Semantic Search", "LangChain"],
 		description:
-			"AI fitness coach with real-time pose tracking (90%+ accuracy), Fitbit API integration for health monitoring, and adaptive workouts boosting user acceptance by 30%+.",
-		img: "/images/dadhichi.png",
-		github: "https://github.com/aarush-glitch/Dadhichi1",
+			"A Model Context Protocol server that manages local notes and enhances them with Gemini-powered AI operations. Notes can be listed, created, updated, searched, and retrieved as MCP resources. Gemini CLI is used to summarize notes, generate tags, explain content, and answer questions about stored notes.",
+		img: "", // add image
+		github: "https://github.com/Nakul443/Notes-MCP-server",
 	},
 	{
-		title: "Raktadatra",
-		tech: ["JavaScript", "HTML", "CSS", "Firebase"],
+		title: "Finance Transaction Extractor",
+		tech: ["TypeScript","Hono","Next.js","PostgreSQL","PrismaORM","Auth.js","TailWindCSS","Zod"],
 		description:
-			"Real-time blood donor matching system using Firebase, region-based filtering, and AI demand forecasting, reducing search time by 40% and manual requests by 25–35%.",
-		img: "/images/raktadatra.png",
-		github: "https://github.com/aarush-glitch/raktadatra",
+			"A secure finance app that extracts transaction data from bank statements. Features user authentication, data isolation, and modern full-stack architecture",
+		img: "", // add image
+		github: "https://github.com/Nakul443/finance-transaction-extractor",
 	},
 	{
-		title: "CropConnect",
-		tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+		title: "TicTacToe",
+		tech: ["React.js","TypeScript","Node.js","Socket.io","CSS3"],
 		description:
-			"B2C e-commerce platform for direct farmer-to-consumer sales, streamlined backend logic, improving load time by 10% and reducing DB load by 30%.",
-		img: "/images/cropconnect.png",
-		github: "https://github.com/aarush-glitch/CropConnect",
+			"Full-stack multiplayer Tic-Tac-Toe game using WebSockets for instant turn-based synchronization. Implements state consistency across disconnects and concurrent game room management",
+		img: "",
+		github: "https://github.com/Nakul443/TicTacToe",
 	},
 	{
-		title: "Aarush Gupta Portfolio",
+		title: "Nakul Portfolio",
 		tech: [
 			"Next.js 14",
 			"TypeScript",
@@ -37,8 +37,8 @@ const projects = [
 		],
 		description:
 			"Modern dev portfolio with 3D animations, contact form, and dynamic theme. Built using Next.js 14, Framer Motion, and Three.js.",
-		img: "/images/portfolio.png",
-		github: "https://github.com/aarush-glitch/portfolio",
+		img: "", // add image
+		github: "https://github.com/Nakul443/portfolio",
 	},
 
 ];

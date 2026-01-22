@@ -52,17 +52,17 @@ export default function Contact() {
                 <div className="rounded-full w-[95%] h-[95%] bg-gradient-to-br from-[#a259ff99] to-[#7f37ff66] shadow-[0_0_16px_4px_#a259ffcc]" />
               </div>
               <Image
-                src="/profile.jpg"
-                alt="Aarush Gupta"
+                src=""
+                alt="Nakul Kumar Singh"
                 width={120}
                 height={120}
                 className="rounded-full border-4 border-primary bg-background object-cover w-[120px] h-[120px] relative z-20"
               />
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-white">Aarush Gupta</h3>
-              <p className="text-[#43e7ad] font-medium">Software Developer</p>
-              <p className="text-[#ededed] mt-2">Final-year CSE Student</p>
+              <h3 className="text-2xl font-bold text-white">Nakul Kumar Singh</h3>
+              <p className="text-[#43e7ad] font-medium">Software Developer | AI Engineer</p>
+              <p className="text-[#ededed] mt-2">Final-year B.tech Student</p>
             </div>
           </div>
           
@@ -76,8 +76,8 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-[#bdbdbd] text-sm">Email</p>
-                <a href="mailto:aarush9604@gmail.com" className="text-white hover:text-[#43e7ad] transition-colors">
-                  aarush9604@gmail.com
+                <a href="mailto:nakul.kumar627@gmail.com" className="text-white hover:text-[#43e7ad] transition-colors">
+                  nakul.kumar627@gmail.com
                 </a>
               </div>
             </div>
@@ -92,8 +92,8 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-[#bdbdbd] text-sm">LinkedIn</p>
-                <a href="https://linkedin.com/in/aarush-gupta1" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#43e7ad] transition-colors">
-                  linkedin.com/in/aarush-gupta1
+                <a href="www.linkedin.com/in/nakul-singh7" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#43e7ad] transition-colors">
+                  https://www.linkedin.com/in/nakul-singh7/
                 </a>
               </div>
             </div>
@@ -103,12 +103,6 @@ export default function Contact() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#43e7ad" strokeWidth="2" viewBox="0 0 24 24">
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                 </svg>
-              </div>
-              <div>
-                <p className="text-[#bdbdbd] text-sm">Twitter</p>
-                <a href="https://x.com/whois_aarush" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#43e7ad] transition-colors">
-                  @whois_aarush
-                </a>
               </div>
             </div>
             {/* ✅ Phone Number */}
@@ -120,8 +114,8 @@ export default function Contact() {
         </div>
         <div>
           <p className="text-[#bdbdbd] text-sm">Phone</p>
-          <a href="tel:+919311347116" className="text-white hover:text-[#43e7ad] transition-colors">
-            +91 9311347116
+          <a href="tel:+917042320624" className="text-white hover:text-[#43e7ad] transition-colors">
+            +91 7042320624
           </a>
         </div>
       </div>
@@ -153,7 +147,7 @@ export default function Contact() {
             </div>
           ) : (
             <form 
-              action="https://formsubmit.co/aarushworks9604@gmail.com" 
+              action="https://formsubmit.co/nakul.kumar627@gmail.com" 
               method="POST"
               onSubmit={() => {
                 setIsSubmitting(true);

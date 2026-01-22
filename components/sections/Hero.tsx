@@ -22,8 +22,8 @@ export default function Hero() {
 
           <div className="relative z-20 flex items-center justify-center">
             <Image
-              src="/profile2.jpg"
-              alt="Aarush Gupta profile"
+              src=""
+              alt="Nakul Kumar Singh profile"
               width={440}
               height={440}
               className="rounded-full border-8 border-primary bg-background object-cover w-[440px] h-[440px] mx-auto animate-glow shadow-3xl"
@@ -33,7 +33,7 @@ export default function Hero() {
 
             {/* Slanted Hover Button */}
             <a
-              href="https://drive.google.com/file/d/1P5zGmAbjjgYzy33rcCp9XadO4bH3Vv9S/view?usp=sharing"
+              href="https://drive.google.com/file/d/1n1GU_iRZDA_TiLGnt1mBDjlt2pf5VoQj/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute -top--5 -right-20 z-10"
@@ -48,29 +48,27 @@ export default function Hero() {
         {/* Right column with text & social */}
         <div className="flex flex-col items-center md:items-start gap-4 w-full max-w-xl">
           <h1 className="text-5xl md:text-6xl font-extrabold text-white tracking-tight text-center md:text-left">
-            Hi, I&rsquo;m Aarush
+            Hi, I&rsquo;m Nakul
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-center md:text-left drop-shadow-[0_1px_8px_#a259ff55] animate-gradient-text bg-gradient-to-r from-[#a259ff] via-[#43e7ad] to-[#7f37ff] bg-[length:200%_200%] bg-clip-text text-transparent">
-            Final-year CSE Student · Software Developer
+            Final-year B.tech Student · Software Developer · AI Engineer
           </h2>
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-lg text-[#ededed]">
             <span className="text-[#7f37ff] font-medium">New Delhi, India</span>
             <span className="hidden md:inline text-[#a259ff]">·</span>
             <a
-              href="mailto:aarush9604@gmail.com"
+              href="mailto:nakul.kumar627@gmail.com"
               className="underline underline-offset-4 text-[#43e7ad] hover:text-[#a259ff] transition font-medium"
             >
-              aarush9604@gmail.com
+              nakul.kumar627@gmail.com
             </a>
           </div>
 
           {/* Achievement cards */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4 text-base">
             {[
-              { text: "8.3/10 CGPA @ JIIT", color: "from-[#23213a] to-[#2a2d3e]" },
-              { text: "Top 3% Amazon ML Summer School", color: "from-[#23213a] to-[#2a2d3e]" },
+              { text: "8 CGPA @ GGSIPU", color: "from-[#23213a] to-[#2a2d3e]" },
               { text: "500+ DSA Problems", color: "from-[#23213a] to-[#2a2d3e]" },
-              { text: "2nd Place Coding Wizards Hackathon", color: "from-[#23213a] to-[#2a2d3e]" },
             ].map((item) => (
               <span
                 key={item.text}
@@ -90,13 +88,13 @@ export default function Hero() {
           <div className="flex justify-center gap-6 mt-8">
             {[
               {
-                href: "https://github.com/aarush-glitch",
+                href: "https://github.com/Nakul443",
                 icon: (
                   <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
                 ),
               },
               {
-                href: "https://linkedin.com/in/aarush-gupta1",
+                href: "https://www.linkedin.com/in/nakul-singh7/",
                 icon: (
                   <>
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
@@ -106,7 +104,7 @@ export default function Hero() {
                 ),
               },
               {
-                href: "mailto:aarush9604@gmail.com",
+                href: "mailto:nakul.kumar627@gmail.com",
                 icon: (
                   <>
                     <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -115,13 +113,7 @@ export default function Hero() {
                 ),
               },
               {
-                href: "https://x.com/whois_aarush",
-                icon: (
-                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                ),
-              },
-              {
-                href: "https://leetcode.com/aarush_codes/", // Replace with your actual LeetCode profile URL
+                href: "https://leetcode.com/u/orptis/", // Replace with your actual LeetCode profile URL
                 icon: (
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 

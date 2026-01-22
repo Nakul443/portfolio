@@ -3,36 +3,15 @@ import { useRef, useEffect, useState } from "react";
 
 const experiences = [
   {
-    company: "The Quantum HQ",
+    company: "Chromospec Solutions",
     role: "Software Development Intern",
-    date: "May 2025 – Present",
+    date: "December 2024 – March 2025",
     location: "Remote",
     highlights: [
-      "Developing a scalable web platform using VIN-based tracking to assess vehicle history and condition, enabling users to engage in discussions and share insights, optimized for 10,000+ concurrent users.",
-      "Implemented car listings and threaded discussions, boosting sample user engagement by 30%.",
-      "Engineered a platform with Next.js, Redis, PostgreSQL, AWS (EC2, S3, RDS) supporting 10k+ concurrent users."
-    ],
-  },
-  {
-    company: "Amazon",
-    role: "Machine Learning Summer Trainee",
-    date: "July 2024 – July 2025",
-    location: "Remote",
-    highlights: [
-      "Ranked in the top 3% (3,000 out of 84,000+ applicants) for Amazon’s competitive ML program.",
-      "Applied advanced ML techniques from expert-led sessions to solve real-world problems.",
-      "Refined community detection models using Louvain algorithm, improving clustering accuracy by 15%."
-    ],
-  },
-  {
-    company: "Invest India",
-    role: "Data Analytics Intern",
-    date: "Jun. 2024 – July 2024",
-    location: "Delhi, India",
-    highlights: [
-      "Led a detailed analysis of trade data for India’s pharmaceutical sector, evaluating data from 190+ countries and 500+ commodities, reducing analysis time by 80%.",
-      "Used Python web-scraping techniques to automate data collection and reduced manual data entry by 70%.",
-      "Presented an interactive Power BI dashboard to analyze $137B trade data, reducing report generation time by 50% and improving decision-making efficiency by 30%."
+      "Developed a media upload platform using Node.js and AWS S3 for video storage and engagement tracking.",
+      "Implemented Redis caching and rate limiting.",
+      "Implemented JWT-based authentication system with role-based access control (RBAC).",
+      "Implemented data ingestion pipelines from Google Sheets to AWS Redshift."
     ],
   },
 ];

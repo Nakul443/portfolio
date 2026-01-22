@@ -1,4 +1,4 @@
-# Aarush Gupta Portfolio
+# Nakul Kumar Singh Portfolio
 
 A modern, production-ready Next.js 14 portfolio for a software developer, featuring advanced animations, 3D effects, and a signature timeline illumination effect.
 
@@ -32,7 +32,7 @@ npm run dev
 
 This portfolio uses [FormSubmit.co](https://formsubmit.co/) as a free, no-signup email service for the contact form. The implementation:
 
-1. Sends emails directly to `aarushworks9604@gmail.com` when users submit the contact form
+1. Sends emails directly to `nakul.kumar627@gmail.com` when users submit the contact form
 2. Includes proper subject formatting with the user's subject line
 3. Formats the message in a clean, readable table format
 4. Requires no API keys, passwords, or backend code
@@ -62,4 +62,4 @@ Additional FormSubmit.co options are configured via hidden input fields in the f
 
 ---
 
-© Aarush Gupta
+© Nakul Kumar Singh
