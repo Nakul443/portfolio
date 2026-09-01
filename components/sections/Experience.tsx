@@ -3,15 +3,29 @@ import { useRef, useEffect, useState } from "react";
 
 const experiences = [
   {
-    company: "Chromospec Solutions",
-    role: "Software Development Intern",
-    date: "December 2024 – March 2025",
-    location: "Remote",
+    company: "FindMyLawyer",
+    role: "Software Engineer Full Time - AI/Backend",
+    date: "March 2026 – Present",
+    location: "India",
     highlights: [
-      "Developed a media upload platform using Node.js and AWS S3 for video storage and engagement tracking.",
-      "Implemented Redis caching and rate limiting.",
-      "Implemented JWT-based authentication system with role-based access control (RBAC).",
-      "Implemented data ingestion pipelines from Google Sheets to AWS Redshift."
+      "Architected and deployed a production-grade Legal RAG pipeline ingesting and indexing 10,000+ regulatory PDFs from 14+ Indian government portals, automating the complete pipeline from web crawling to semantic indexing for AI-powered legal search.",
+      "Engineered an asynchronous distributed ingestion pipeline using Crawl4ai, AsyncIO, headless Chromium, httpx, and LlamaParse, with fault-tolerant processing and legal format aware document chunking.",
+      "Designed a hybrid retrieval architecture combining LanceDB ANN vector search with CrossEncoder (ms-marco-MiniLM-L-6-v2) reranking, embedding legal metadata (ACT, SECTION) to improve retrieval relevance.",
+      "Built a LangGraph-based support chatbot integrated with the RAG pipeline via a custom Model Context Protocol (MCP) server, enabling the agent to autonomously search legal documents mid-conversation.",
+      "Instrumented full-stack observability across retrieval and chat pipelines, tracking time-to-first-token, tool-call latency, and database query metrics.",
+      "Containerized and deployed the platform as a three-service Docker architecture (Scraper, Embedding Processor, FastAPI Server) on AWS S3 and EC2 with restart policies.",
+    ],
+  },
+  {
+    company: "Chromospec Solutions",
+    role: "Software Engineer Intern - Backend",
+    date: "August 2025 – February 2026",
+    location: "Bangalore",
+    highlights: [
+      "Designed and built a scalable media upload and analytics platform using Node.js, TypeScript, AWS S3, and REST APIs, supporting high-traffic ingestion with multi-part upload handling.",
+      "Reduced API response latency by 67% (450ms → 150ms) and overall API load by 30% by implementing Redis caching and request rate limiting.",
+      "Implemented JWT-based authentication with role-based access control (RBAC), securing all API endpoints.",
+      "Optimised PostgreSQL performance via composite indexing and SQL query restructuring, reducing read latency by 40%.",
     ],
   },
 ];

@@ -19,6 +19,7 @@ import {
   Server,
   Award,
   Github,
+  Sparkles,
 } from "lucide-react";
 
 
@@ -51,6 +52,12 @@ const skills = [
   { name: "Docker", icon: Server },
   { name: "Jira", icon: Award },
   { name: "Github", icon: Github },
+  { name: "Django", icon: Server },
+  { name: "LangGraph", icon: Brain },
+  { name: "FAISS", icon: Search },
+  { name: "Ollama", icon: Cpu },
+  { name: "Prompt Engineering", icon: Sparkles },
+  { name: "RBAC", icon: ListChecks },
 ];
 
 export default function Skills() {

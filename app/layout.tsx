@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nakul Kumar Singh",
-  description: "Portfolio of Nakul - Final-year B.tech Student. Software Developer & AI Engineer",
+  description: "Portfolio of Nakul Kumar Singh — AI/Backend Software Engineer at FindMyLawyer, final-year B.Tech student.",
 };
 
 export default function RootLayout({

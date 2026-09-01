@@ -22,7 +22,7 @@ export default function Hero() {
 
           <div className="relative z-20 flex items-center justify-center">
             <Image
-              src=""
+              src="/profile.jpg"
               alt="Nakul Kumar Singh profile"
               width={440}
               height={440}
@@ -33,7 +33,7 @@ export default function Hero() {
 
             {/* Slanted Hover Button */}
             <a
-              href="https://drive.google.com/file/d/1n1GU_iRZDA_TiLGnt1mBDjlt2pf5VoQj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1KQ6QSiVoPWZOI0aHXzSFff58VDoWNeoH/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute -top--5 -right-20 z-10"
@@ -51,10 +51,10 @@ export default function Hero() {
             Hi, I&rsquo;m Nakul
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-center md:text-left drop-shadow-[0_1px_8px_#a259ff55] animate-gradient-text bg-gradient-to-r from-[#a259ff] via-[#43e7ad] to-[#7f37ff] bg-[length:200%_200%] bg-clip-text text-transparent">
-            Final-year B.tech Student · Software Developer · AI Engineer
+            AI/Backend Software Engineer @ FindMyLawyer · Final-year B.Tech Student
           </h2>
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-lg text-[#ededed]">
-            <span className="text-[#7f37ff] font-medium">New Delhi, India</span>
+            <span className="text-[#7f37ff] font-medium">New Delhi · Bangalore, India</span>
             <span className="hidden md:inline text-[#a259ff]">·</span>
             <a
               href="mailto:nakul.kumar627@gmail.com"
@@ -67,8 +67,9 @@ export default function Hero() {
           {/* Achievement cards */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4 text-base">
             {[
-              { text: "8 CGPA @ GGSIPU", color: "from-[#23213a] to-[#2a2d3e]" },
-              { text: "500+ DSA Problems", color: "from-[#23213a] to-[#2a2d3e]" },
+              { text: "8.31 CGPA @ GGSIPU", color: "from-[#23213a] to-[#2a2d3e]" },
+              { text: "600+ DSA Problems Solved", color: "from-[#23213a] to-[#2a2d3e]" },
+              { text: "LeetCode Knight · 1850 Peak", color: "from-[#23213a] to-[#2a2d3e]" },
             ].map((item) => (
               <span
                 key={item.text}

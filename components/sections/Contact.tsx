@@ -52,7 +52,7 @@ export default function Contact() {
                 <div className="rounded-full w-[95%] h-[95%] bg-gradient-to-br from-[#a259ff99] to-[#7f37ff66] shadow-[0_0_16px_4px_#a259ffcc]" />
               </div>
               <Image
-                src=""
+                src="/profile.jpg"
                 alt="Nakul Kumar Singh"
                 width={120}
                 height={120}
