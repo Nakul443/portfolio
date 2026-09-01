@@ -22,7 +22,7 @@ export default function Hero() {
 
           <div className="relative z-20 flex items-center justify-center">
             <Image
-              src="/profile.jpg"
+              src="/portfolio.jpg"
               alt="Nakul Kumar Singh profile"
               width={440}
               height={440}
